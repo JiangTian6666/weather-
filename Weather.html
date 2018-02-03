@@ -1,0 +1,89 @@
+<html lang="zh-cmn-Hans">
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>天气</title>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <link rel="stylesheet" href="getWeather.css">
+</head>
+<body>
+  <div id="wrap">
+  	<div id="glass"></div>
+  	<div id="panel">
+      <div id="scenery">
+        <div id="header">
+           <div id="landmark">
+              <p id = "region">××,××</p>
+              <p id = "time">××:××</p>
+          </div>
+           <h2 id = "city"></h2>
+        </div>
+          <div id="box">
+            <div id="search"></div>
+            <ul>
+              <li id="weather"></li>
+              <li id="nwes"></li>
+              <li id="picture"></li>
+            </ul>
+          </div>
+      </div>
+      <div id="data">
+        <ul id="week">
+        <li>
+          <ul>
+            <li class="day">TUE</li>
+            <li class="state">&#xe6fe</li>
+            <li class="extent">×°~×°</li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li class="day">TUE</li>
+            <li class="state">&#xe6fe</li>
+            <li class="extent">×°</li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li class="day">TUE</li>
+            <li class="state">&#xe6fe</li>
+            <li class="extent">x°</li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li class="day">TUE</li>
+            <li class="state">&#xe6fe</li>
+            <li class="extent">x°</li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li class="day">TUE</li>
+            <li class="state">&#xe6fe</li>
+            <li class="extent">x°</li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li class="day">TUE</li>
+            <li class="state">&#xe6fe</li>
+            <li class="extent">x°</li>
+          </ul>
+        </li>
+      </ul>
+        <div id="today">
+            <div id="status">
+            <p id="wealogo">&#xe6fe</p>  
+            <p>××</p></div>
+          <div id="temperature">
+            <p id="temperature_num">xx°</p>
+            <p class="day" id="day">××</p>  
+          </div>
+        </div>
+      </div>
+  	</div>    
+  </div>
+  <script src="/getWeather.js"></script>
+</body>
+</html>
